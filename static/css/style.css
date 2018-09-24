@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: #ffffff;
+}
+
+body{
+    font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+
+.center{
+    background-color: rgba(0,0,0,0);
+    width: 1176px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.center a img,div{
+    margin: 0 auto;
+}
+
+.center h2 span{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 28px;
+    color: darkgrey;
+}
+.center h2 span:first-child{
+    font-size: 64px;
+    color: #4f8077;
+}
+
+.right-header{
+    height:64px;
+}
+
+.right-header ul{
+    font-family: "Comic Sans MS",cursive,sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.right-header li{
+    list-style-type: none;
+    line-height: 64px;
+    float: right;
+}
+.right-header li a{
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #4f8077;
+}
+
+.right-header li a:hover{
+    color:#e97878;
+}
+
+.left-header{
+    height:50px;
+    overflow: hidden;
+}
+
+.left-header ul{
+    height: 100%;
+    width: 100%;
+}
+.left-header a img{
+    float: left;
+    display: block;
+    height: 100%;
+}
+.left-header li{
+    list-style-type: none;
+    line-height: 50px;
+    float: left;
+}
+
+.left-header li a,.dropbtn{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: darkgray;
+    padding: 0 15px;
+}
+
+.left-header li a:hover,.dropdown:hover .dropbtn{
+    color: black;
+}
+
+.dropdown{
+
+}
+
+.introduce{
+    width: 900px;
+    text-align: left;
+}
+
+.introduce h1,h2,h3,h4,h5,h6{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.introduce h4 {
+    color: #4f8077;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.introduce p{
+    font-size: 22px;
+    color: darkgrey;
+    margin-bottom: 10px;
+}
+
+.line-button{
+    background-color: rgba(0,0,0,0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px;
+    color: #4f8077;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #4f8077;
+    border-radius: 8px;
+}
+
+.primary-a{
+    background-color: rgba(0,0,0,0);
+    font-size: 16px;
+    color: #4f8077;
+    text-decoration: none;
+    margin:10px;
+}
+
+.primary-a:hover{
+    color: #e97878;
+}
+
+.footer{
+    color: darkgrey;
+}
+
+.footer a{
+    color:darkgrey;
+}
+.footer a:hover{
+    color: dimgray;
+}
