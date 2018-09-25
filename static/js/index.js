@@ -1,5 +1,5 @@
-main();
-function main() {
+index();
+function index() {
     let timer;
     let frame = 0;
 
@@ -15,4 +15,13 @@ function main() {
         frame++;
     }
     timer = setInterval(wink, 200);
+}
+
+function changeIcon() {
+    element=document.getElementById('myIcon')
+    if (element.src.match("icon2")) {
+        element.src = "/static/img/icon.png";
+    } else {
+        element.src = "/static/img/icon2.png";
+    }
 }
